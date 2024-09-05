@@ -1,0 +1,190 @@
+
+.organi-text a:hover img{
+    margin-left: 5px;
+   }
+   .featured-text {
+     padding-top: 50px;
+     h2{
+       color: #263238;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 136.5%;
+   text-transform: capitalize;
+     }
+     p{
+       
+       color: #595252;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 172.5%; 
+   text-transform: capitalize;
+     }
+   }
+   .products-list{
+   
+     aspect-ratio: 4/3;
+     border-radius: 15px;
+   background: #FFF;
+   padding: 40px;
+   position: relative;
+   }
+   
+   .prod-head{
+     img{
+       
+   height: 150px;
+       background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left:1px;
+     }
+   h3{
+     display: flex;
+   padding-top: 20px;
+   
+   flex-direction: column;
+   justify-content: center;
+   color: #000;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 145.5%; 
+   text-transform: capitalize;
+   }
+   }.products-pirs{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 20px;
+     span{
+   
+   color: #488C1C;
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 136.5%; 
+   text-transform: capitalize;
+     }
+   }
+   .products-soping{
+     align-items: center;
+     display: flex;
+     gap: 30px;
+     
+     border-radius: 25.5px;
+   border: 1px solid #488C1C;
+   
+     img{
+       width: 38.104px;
+   height: 38.104px;
+     }
+     h5{
+       padding-top: 3px;
+       color: #488C1C;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 136.5%; 
+   text-transform: capitalize;
+     }
+   }
+   .products-list img{
+     transition: .5s;
+   }
+   .products-list:hover .products-icon img{
+     background-color: #498d1c67;
+     border-radius: 50%;
+     transform: rotatey(360deg);
+     color: white;
+    
+   }
+   .abuot-text span:hover{
+    color: rgb(39, 234, 9);
+    
+   }
+   .products-icon{
+     position: absolute;
+     top: 30px;
+     right: 30px;
+    
+    
+     img{
+       width: 38.104px;
+   height: 38.104px;
+     }
+   }
+   .products-discont{
+     position: absolute;
+     left: 30px;
+     top: 30px;
+     h6{
+       border-radius: 2px;
+       background: #F88808;
+       padding: 6px;
+       color: #FFF;
+       font-family: Poppins;
+       font-size: 14px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 136.5%; 
+       text-transform: capitalize;
+     }
+   }
+
+   .best-sell{
+    background-image: url('./../img/Rectangle\ 6515.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio:16/23;
+    padding-top: 186px;
+    position: relative;
+    .coundown-best{
+      position: absolute;
+      top: 40px;
+      display: flex;
+      gap: 15px;
+      text-align: center;
+      left: 20px;
+      right: 26px;
+      
+      li{
+        background: rgb(247, 247, 247);
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+  .best-sell {
+    aspect-ratio: 4/4;
+
+  }
+  .best-sell .coundown-best {
+    left: 26px;
+  }
+
+  .best-seller-head .best-next-prev .clientsf-next {
+    background-color: rgba(72, 140, 28, 0.1215686275);
+    color: #488C1C;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.best-seller-head .best-next-prev .clientsf-prev {
+  background-color: rgba(72, 140, 28, 0.1215686275);
+  color: #488C1C;
+  padding: 5px 15px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.cgkmst-section{
+  padding: 100px 0;
+  background: #F5F5F5;
+}

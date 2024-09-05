@@ -1,0 +1,77 @@
+.discover-menu{
+    display: grid;
+    grid-template-columns: repeat(3 ,2fr);
+    gap: 14px;
+
+    
+}
+.discover-itme3{
+   grid-column: 5/3;
+   grid-row: 1/5;
+ img{
+    width: 416px;
+    height: 651px;
+ }
+}
+
+.discover{
+padding: 24px 15px 30px 42px;
+border-radius: 14px;
+background: #FFF;
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+
+    h5{
+        color: var(--090909, #090909);
+font-family: Satoshi;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px; 
+margin-bottom: 24px;
+    }
+    p{
+        color: var(--6-d-6-d-6-d, #6D6D6D);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; 
+    }
+    img{
+        margin-bottom: 24px;
+        width: 48px;
+height: 48px;
+flex-shrink: 0;
+    }
+}
+
+.discover-head-text{
+    text-align: center;
+    h2{
+        color: var(--Secondary, #91C48A);
+text-align: center;
+font-family: Satoshi;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 24px;
+    }
+    h3{
+        color: var(--Black, #212529);
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 33px;
+    }
+}
+.discver-bg{
+ padding: 100px 0 0px 0;
+}
+
+.discover-section{
+    background: #F8F4F0;
+}

@@ -1,0 +1,75 @@
+
+.media-menu{
+    // display: grid;
+    // grid-template-columns: repeat(2,1fr);
+    // gap: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.media-item1{
+    h3{
+        color: var(--090909, #090909);
+        font-family: Satoshi;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 24px;
+    }
+    p{
+        color: var(--090909, #090909);
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 36px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        li{
+    a{
+        border-radius: 20px;
+        background: var(--Primary, #6D9DC5);
+      padding: 13px;
+      align-items: center;
+      display: flex;
+      color: #FFFFFF;
+
+    }
+        }
+      }
+}
+.follow-media{
+    padding: 197px 0 223px 0;
+    background: #F8F4F0;
+    hr{
+        border: 1px solid #000;
+        height: 150px;
+        margin: 0 108px;
+    }
+}
+.media-item2{
+    h3{
+        color: var(--090909, #090909);
+        font-family: Satoshi;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 24px;
+    }
+    p{
+        color: var(--090909, #090909);
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+}

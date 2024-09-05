@@ -1,0 +1,69 @@
+.banner-sectoion{
+  background: #F8F4F0;
+ 
+  
+}
+.banner-bg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./../img/banner/banner-grp.png);
+}
+.banner-text{
+  padding: 350px 200px 400px 200px;;
+  text-align: center;
+  h2{
+    color: var(--Black, #212529);
+font-family: Satoshi;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+span{
+  color: var(--Secondary, #91C48A);
+}
+  }
+}
+
+.scrl-dun{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  img{
+    width: 108px;
+    height: 108px;
+    flex-shrink: 0;
+  }
+}
+
+.Careers-text{
+  padding: 231px 365px 400px 365px;
+  h1{
+    color: var(--Secondary, #91C48A);
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+  h4{
+    color: var(--090909, #090909);
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+  p{
+    color: var(--6-d-6-d-6-d, #6D6D6D);
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+}

@@ -1,0 +1,97 @@
+
+.assist-slid{
+    padding: 0 18px 21px 18px;
+    h5{
+        color: var(--090909, #090909);
+        font-family: Satoshi;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    h4{
+        color: var(--141-a-60, #141A60);
+        font-family: Satoshi;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+    p{
+        color: var(--6-d-6-d-6-d, #6D6D6D);
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 36px;
+    }
+
+}
+.tants-item-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-fac{
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.swiper-slide{
+    border-radius: 12px;
+background: var(--ffffff, #FFF);
+}
+.virtual-assistants{
+    background: var(--Primary, #6D9DC5);
+    margin-top: -2px;
+    padding: 20px 0 50px 0;
+}
+
+.virtual-head-text{
+    text-align: center;
+    h2{
+        color: var(--ffffff, #FFF);
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+    h5{
+        color: var(--090909, #090909);
+        text-align: center;
+        font-family: Satoshi;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 59px;
+    }
+}
+.swiper-pagination {
+    position: unset;
+    margin-top: 70px;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color,#ffffff);
+    box-shadow: 1px solid white;
+
+  }
+  .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,20px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,20px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius,50%);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .2);
+  }

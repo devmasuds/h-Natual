@@ -1,0 +1,83 @@
+.from-moda{
+    h1{
+      color: #263238;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 136.5%; 
+      text-transform: capitalize;
+    }
+    p{
+      padding-top: 20px;
+      color: #595252;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 172.5%; 
+      text-transform: capitalize;
+    }
+  }
+  .news-from{
+    padding: 60px 0;
+    .latest-form{
+      border-radius: 6px;
+      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      aspect-ratio: 4/1;
+      position: relative;
+    }
+    h5{
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      border-radius: 5px;
+      background: #F88808;
+      padding: 10px;
+      padding-left: 14px;
+      font-size: 16px;
+    }
+    .letest-text{
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      padding-top: 15px;
+      h6{
+        color: #909090;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+        text-transform: capitalize;
+      }
+      span{
+        color: #909090;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+        text-transform: capitalize;
+      }
+    }
+    .latest-moda{
+      h2{
+        padding-top: 20px;
+        color: #263238;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 175%;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+  .latest-news{
+    background: #F5F5F5;
+    padding: 100px;
+  }
